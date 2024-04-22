@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  /* margin-top: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 960px;
+  margin-top: 20px;
+  /* width: 100%; */
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.navContent {
+  display: flex;
+  flex-direction: row;
+  gap: 0 20px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navList button {
+  background: none;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.navList button:hover {
+  color: #ff7c00;
+}
+
+.btn-buy a{
+  padding: 12px 20px;
+  background: linear-gradient(60deg, #ffc04c 10%, #ffa52d 90%);
+  border-radius: 10px;
+  transition: .2s ease-in-out;
+}
+.btn-buy a:hover {
+  background: #ffffff;
+  color: #222222;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .navList{
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+    max-width: 40px;
+  }
+}

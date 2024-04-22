@@ -1,0 +1,85 @@
+.howToBuy-bg {
+  background-image: url('../assets/howToBuy-bg.png');
+}
+
+.howToBuy-bg h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  transition: .2s ease;
+}
+
+.howToBuy-bg h1:hover {
+  color: #ff7c00;
+  cursor:default;
+}
+
+.howToBuy-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.howToBuy-desc {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 450px;
+  height: 500px;
+  background-image: url('../assets/howToBuy-desc.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-content: center;
+  color: #2f2f2f;
+  margin-left: 60px;
+}
+
+.howToBuy-desc h2 {
+  font-size: 20px;
+  text-align: center;
+  transition: .2s ease;
+}
+.howToBuy-desc h2:hover {
+  color: #ff7c00;
+  cursor:default;
+}
+
+.howToBuy-desc p {
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.howToBuy-dog img {
+  max-width: 500px;
+}
+@media only screen and (max-width: 1010px) {
+  .howToBuy-bg {
+    background-image: url("../assets/howToBuy-bg-mobile.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .howToBuy-desc {
+    margin-left: 20px;
+  }
+  .howToBuy-dog img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .howToBuy-bg {
+    background-image: url("../assets/howToBuy-bg.png");
+  }
+
+}
+@media only screen and (max-width: 430px) {
+  .howToBuy-desc h2 {
+    font-size: 14px;
+  }
+  .howToBuy-desc p {
+    font-size: 14px;
+    width: 180px;
+  }
+}

@@ -1,0 +1,97 @@
+.intro-bg {
+  /* width: 100vw; */
+  /* height: 80vh; */
+  background-image: url('../assets/intro-bg.png');
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.intro-container {
+  padding-top: 100px;
+}
+
+.content-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.intro-dog {
+  max-width: 500px;
+}
+.intro-text {
+  max-width: 450px;
+  margin-left: 40px;
+  align-self: center;
+}
+.intro-text h1 {
+  font-size: 45px;
+  color: #ffffff;
+  text-align: center;
+  transition: .2s ease;
+}
+.intro-text h1:hover {
+  color: #ff7c00;
+  cursor:default;
+}
+.intro-text p {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+}
+.intro-text button {
+  padding: 12px 20px;
+  background: linear-gradient(60deg, #ffc04c 10%, #ffa52d 90%);
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  transition: .2s ease-in-out;
+
+}
+.intro-text button:hover {
+  background: #ffffff;
+  color: #222222;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .intro-text h1 {
+    font-size: 24px;
+  }
+  .intro-text p {
+    font-size: 20px;
+  }
+  .intro-text button {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro-text h1 {
+    font-size: 24px;
+  }
+  .content-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* justify-items: end; */
+  }
+  .intro-dog {
+    justify-self: end;
+    width: 200px;
+  }
+  .intro-text {
+    justify-self: center;
+    margin-top: 40px;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .intro-text button {
+    font-size: 16px;
+    padding: 10px 18px;
+    margin-top: 30px;
+  }
+}
