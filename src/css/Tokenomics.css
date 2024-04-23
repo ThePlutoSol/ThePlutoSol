@@ -1,57 +1,59 @@
 .tokenomics-bg {
-    background-image: url("../assets/tokenomics-bg.png");
-    background-position: center;
-    background-size: cover;
-    padding: 120px 0;
-    border-top: 20px solid black;
-    border-bottom: 20px solid black;
-    /* height: 80vh; */
+  background-image: url('../assets/tokenomics-bg.png');
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+  border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  /* height: 80vh; */
 }
 
 .tokenomics-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .tokenomics-desc {
-    color: #ffffff;
-    margin-top: 40px;
+  color: #ffffff;
+  margin-top: 40px;
 }
 
-.tokenomics-desc h2, .tokenomics-desc p {
-    text-shadow: 1px 1px 2px black;
+.tokenomics-desc h2,
+.tokenomics-desc p {
+  text-shadow: 1px 1px 2px black;
 }
 
 .tokenomics-desc h2 {
-    font-size: 40px;
-    transition: .2s ease;
+  font-size: 40px;
+  transition: 0.2s ease;
 }
-.tokenomics-desc h2:hover, .tokenomics-desc p:hover {
+.tokenomics-desc h2:hover,
+.tokenomics-desc p:hover {
   color: #ff7c00;
-  cursor:default;
+  cursor: default;
 }
 
 .tokenomics-desc p {
-    font-size: 26px;
-    transition: .2s ease;
+  font-size: 26px;
+  transition: 0.2s ease;
 }
 
 .tokenomics-ghost {
-    width: 150px;
+  width: 150px;
 }
 
 .tokenomics-container img {
-    max-width: 600px;
-    max-height: 600px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 .tokenomics-contract {
-    margin-top: 40px;
-    background-color: #4e2001ea;
-    box-shadow: 10px 10px 2px #252525b2;
-    border-radius: 50px 0px 50px 0px;
-    padding: 20px;
+  margin-top: 40px;
+  background-color: #4e2001ea;
+  box-shadow: 10px 10px 2px #252525b2;
+  border-radius: 50px 0px 50px 0px;
+  padding: 20px;
 }
 
 .pizza-mobile {
@@ -59,24 +61,24 @@
 }
 @media only screen and (max-width: 1220px) {
   .tokenomics-container img {
-      max-width: 400px;
-      max-height: 400px;
-  }    
+    max-width: 400px;
+    max-height: 400px;
+  }
 }
 @media only screen and (max-width: 1030px) {
   .tokenomics-desc h2 {
-      font-size: 32px;
+    font-size: 32px;
   }
 }
 @media only screen and (max-width: 940px) {
   .tokenomics-desc h2 {
-      font-size: 24px;
+    font-size: 24px;
   }
   .tokenomics-desc p {
-      font-size: 20px;
+    font-size: 20px;
   }
   .tokenomics-ghost {
-      width: 100px;
+    width: 100px;
   }
 }
 @media only screen and (max-width: 820px) {
@@ -86,12 +88,12 @@
     padding-top: 0;
   }
   .tokenomics-container {
-      flex-direction: column;
-      width: fit-content;
-      margin: 0 auto;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
   }
   .tokenomics-ghost {
-      display: none;
+    display: none;
   }
   .tokenomics-contract {
     background-color: #4e2001ea;
@@ -143,5 +145,8 @@
   .tokenomics-contract {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .token-address {
+    font-size: 12px !important;
   }
 }
