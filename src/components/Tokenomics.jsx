@@ -20,7 +20,7 @@ const Tokenomics = () => {
                     <p>Token symbol:</p>
                     <span>$PLTO</span>
                     <p>Token address:</p>
-                    <span>token_address</span>
+                    <span>AXSNkxNVWAU4tPFHGqaYuxzqdEkoDGy8DTusMfphUxwg</span>
                     <p>Token supply:</p>
                     <span>999 999 999</span>
                 </div>
