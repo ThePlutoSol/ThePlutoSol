@@ -7,12 +7,12 @@
   text-align: center;
   font-size: 40px;
   padding-top: 20px;
-  transition: 0.2s ease;
+  transition: .2s ease;
 }
 
 .howToBuy-bg h1:hover {
   color: #ff7c00;
-  cursor: default;
+  cursor:default;
 }
 
 .howToBuy-container {
@@ -38,11 +38,11 @@
 .howToBuy-desc h2 {
   font-size: 20px;
   text-align: center;
-  transition: 0.2s ease;
+  transition: .2s ease;
 }
 .howToBuy-desc h2:hover {
   color: #ff7c00;
-  cursor: default;
+  cursor:default;
 }
 
 .howToBuy-desc p {
@@ -55,43 +55,9 @@
 .howToBuy-dog img {
   max-width: 500px;
 }
-
-.howToBuy-desc button {
-  padding: 12px 20px;
-  background: linear-gradient(60deg, #ffc04c 10%, #ffa52d 90%);
-  border-radius: 10px;
-  border: none;
-  color: #ffffff;
-  font-size: 20px;
-  margin: 0 auto;
-  transition: 0.2s ease-in-out;
-}
-.howToBuy-desc button:hover {
-  background: #ffffff;
-  color: #222222;
-  cursor: pointer;
-}
-
-.mobile-btn button {
-  display: none;
-  padding: 12px 20px;
-  background: linear-gradient(60deg, #ffc04c 10%, #ffa52d 90%);
-  border-radius: 10px;
-  border: none;
-  color: #ffffff;
-  font-size: 20px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  transition: 0.2s ease-in-out;
-}
-.mobile-btn button:hover {
-  background: #ffffff;
-  color: #222222;
-  cursor: pointer;
-}
 @media only screen and (max-width: 1010px) {
   .howToBuy-bg {
-    background-image: url('../assets/howToBuy-bg-mobile.png');
+    background-image: url("../assets/howToBuy-bg-mobile.png");
     background-position: center;
     background-size: cover;
   }
@@ -104,34 +70,16 @@
 }
 @media only screen and (max-width: 600px) {
   .howToBuy-bg {
-    background-image: url('../assets/howToBuy-bg.png');
+    background-image: url("../assets/howToBuy-bg.png");
   }
+
 }
 @media only screen and (max-width: 430px) {
-  .howToBuy-desc {
-    margin: 0 auto;
-    padding: 0;
-    width: 350px;
-    height: 350px;
-  }
   .howToBuy-desc h2 {
     font-size: 14px;
   }
   .howToBuy-desc p {
     font-size: 14px;
     width: 180px;
-  }
-  .howToBuy-desc button {
-    display: none;
-  }
-  .mobile-btn button {
-    display: block;
-  }
-  .howToBuy-ghost {
-    display: none;
-  }
-  .howToBuy-container {
-    display: flex;
-    flex-direction: column;
   }
 }

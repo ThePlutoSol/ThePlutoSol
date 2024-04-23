@@ -2,6 +2,7 @@ import React from 'react';
 import pizzaDesktop from '../assets/tokenomics-pizza.png';
 import pizzaMobile from '../assets/tokenomics-pizza-mobile.png';
 import '../css/Tokenomics.css';
+import CopyToClipboardButton from '../scripts/CopyToClipboardButton';
 
 const Tokenomics = () => {
   return (
@@ -21,9 +22,15 @@ const Tokenomics = () => {
             <p>Token symbol:</p>
             <span>$PLTO</span>
             <p>Token address:</p>
-            <span className="token-address">
-              AXSNkxNVWAU4tPFHGqaYuxzqdEkoDGy8DTusMfphUxwg
-            </span>
+            <div className='contract-address'>
+              <span className="token-address tk-mobile">
+                AXSNk...phUxwg
+              </span>
+              <span className="token-address tk-web">
+                AXSNkxNVWAU4tPFHGqaYuxzqdEkoDGy8DTusMfphUxwg
+              </span>
+              <CopyToClipboardButton text="AXSNkxNVWAU4tPFHGqaYuxzqdEkoDGy8DTusMfphUxwg"/>
+            </div>
             <p>Token supply:</p>
             <span>999 999 999</span>
           </div>
