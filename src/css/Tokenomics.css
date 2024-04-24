@@ -4,7 +4,7 @@
     background-size: cover;
     padding: 120px 0;
     border-top: 20px solid black;
-    border-bottom: 20px solid black;
+    /* border-bottom: 20px solid black; */
     /* height: 80vh; */
 }
 
