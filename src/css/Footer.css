@@ -34,6 +34,25 @@
   filter: opacity(1);
 }
 
+.pluto-team {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.pluto-team img{
+  max-width: 40px;
+}
+
+.pluto-team p {
+  color: #adadad;
+}
+
 @media only screen and (max-width: 800px) {
     .socials-container {
         width: 80px;
