@@ -1,6 +1,7 @@
 import React from 'react'
 import twitter from '../assets/twitter-logo.png'
 import telegram from '../assets/telegram-logo.png'
+import logo from '../assets/logo.svg'
 import '../css/Footer.css';
 
 const Footer = () => {
@@ -14,6 +15,10 @@ const Footer = () => {
                     <a href="https://t.me/thesolpluto" target="_blank"><img src={telegram} alt="" /></a>
                 </div>
             </div>
+        </div>
+        <div className='pluto-team'>
+              <img src={logo} alt="" />
+              <p>Pluto team 2024</p>
         </div>
     </section>
   )
