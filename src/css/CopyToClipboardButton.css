@@ -3,6 +3,7 @@
     flex-direction: row;
 }
 .copy-btn button {
+    cursor: pointer;
     margin-left: 4px;
     background: none;
     border: none;
