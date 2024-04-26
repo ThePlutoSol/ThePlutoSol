@@ -28,7 +28,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="btn-buy">
-          <a href="https://www.pinksale.finance/solana/launchpad/DZ5RxTPasHnQthCt2FsHKn2J21oBzexPLsEi2nCMqt2V" target="_blank">BUY</a>
+          <a href="https://jup.ag/swap/SOL-AXSNkxNVWAU4tPFHGqaYuxzqdEkoDGy8DTusMfphUxwg" target="_blank">BUY</a>
         </div>
       </div>
     </div>
