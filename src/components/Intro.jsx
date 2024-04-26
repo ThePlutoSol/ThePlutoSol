@@ -17,7 +17,7 @@ const Intro = () => {
                 Pluto, the biggest & the best dog of all time joined SOLANA's
                 network to show what it's like to be a “real” dog.
               </p>
-              <button><a href="https://www.pinksale.finance/solana/launchpad/DZ5RxTPasHnQthCt2FsHKn2J21oBzexPLsEi2nCMqt2V" target="_blank">BUY $PLTO</a></button>
+              <button><a href="https://jup.ag/swap/SOL-AXSNkxNVWAU4tPFHGqaYuxzqdEkoDGy8DTusMfphUxwg" target="_blank">BUY ON JUPITER</a></button>
             </div>
             <div className="intro-dog">
               <img src={introDog} alt="" />
